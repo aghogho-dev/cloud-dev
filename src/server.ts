@@ -32,7 +32,7 @@ import { Router, Request, Response } from 'express';
   /**************************************************************************** */
 
   app.get("/fiteredimage/", async (req: Request, res: Response) => {
-    const {image_url} = req.query;
+    const image_url: string = req.query;
 
     if ( !image_url ) {
       res.status(400)
