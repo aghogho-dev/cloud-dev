@@ -46,9 +46,9 @@ import { Router, Request, Response } from 'express';
       .sendFile(fit_img);
 
       deleteLocalFiles([fit_img]);
-    } catch (err: any) {
+    } catch (err) {
       res.status(400).
-      send({message: err.message});
+      send({message: err});
     } finally {
       res.send(`End of processing`);
     }
