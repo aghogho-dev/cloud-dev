@@ -1,5 +1,10 @@
 ## Submission Note
 
+## New EBL URL with Axios added to Jimp
+http://cloud-dev-udagram-01-dev.us-east-1.elasticbeanstalk.com/
+
+And type included to img_url
+
 ## EB URL
 http://agh-cloud-dev-udagram-dev.us-east-1.elasticbeanstalk.com/
 
